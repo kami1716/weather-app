@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #f7f7f7;
+}
+
+.container{
+    background-color: white;
+    box-shadow: 0 0 20px rgb(213, 216, 255);
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    max-width: 600px;
+    border-radius: 5px;
+    padding: 20px;
+   
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input-element{
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    margin-right: 5px;
+    outline: none;
+}
+
+
+
+.submit-btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(80, 80, 255);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+.submit-btn:hover{
+    opacity: 0.9;
+}
+
+.icon img{
+    height: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.temperature{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.description{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.other-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.other-info > p{
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin: 10px;
+    flex: 1;
+    border-radius: 5px;
+    text-align: center;
+    min-height: 40px;
+    
+}
+
+@media (max-width: 768px) {
+    .search-bar{
+        flex-direction: column;
+    }
+
+    .input-element{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+}
